@@ -1,0 +1,149 @@
+KilometersUtil:
+  from: "Kilometers"
+  to: "Miles"
+  multiplier: 0.621371
+
+MilesUtil:
+  from: "Miles"
+  to: "Kilometers"
+  multiplier: 1.60934
+
+MetersUtil:
+  from: "Meters"
+  to: "Feet"
+  multiplier: 3.28084
+
+FeetUtil:
+  from: "Feet"
+  to: "Meters"
+  multiplier: 0.3048
+
+CentimetersUtil:
+  from: "Centimeters"
+  to: "Inches"
+  multiplier: 0.393701
+
+InchesUtil:
+  from: "Inches"
+  to: "Centimeters"
+  multiplier: 2.54
+
+GramsUtil:
+  from: "Grams"
+  to: "Ounces"
+  multiplier: 0.035274
+
+OuncesUtil:
+  from: "Ounces"
+  to: "Grams"
+  multiplier: 28.3495
+
+KilogramsUtil:
+  from: "Kilograms"
+  to: "Pounds"
+  multiplier: 2.20462
+
+PoundsUtil:
+  from: "Pounds"
+  to: "Kilograms"
+  multiplier: 0.453592
+
+LitersUtil:
+  from: "Liters"
+  to: "Gallons"
+  multiplier: 0.264172
+
+GallonsUtil:
+  from: "Gallons"
+  to: "Liters"
+  multiplier: 3.78541
+
+CelsiusUtil:
+  from: "Celsius"
+  to: "Fahrenheit"
+  multiplier: 1.8
+
+FahrenheitUtil:
+  from: "Fahrenheit"
+  to: "Celsius"
+  multiplier: -17.2222
+
+JoulesUtil:
+  from: "Joules"
+  to: "Calories"
+  multiplier: 0.239006
+
+CaloriesUtil:
+  from: "Calories"
+  to: "Joules"
+  multiplier: 4.184
+
+WattsUtil:
+  from: "Watts"
+  to: "Horsepower"
+  multiplier: 0.00134102
+
+HorsepowerUtil:
+  from: "Horsepower"
+  to: "Watts"
+  multiplier: 745.7
+
+NewtonMetersUtil:
+  from: "Newton Meters"
+  to: "Foot Pounds"
+  multiplier: 0.737562
+
+FootPoundsUtil:
+  from: "Foot Pounds"
+  to: "Newton Meters"
+  multiplier: 1.35582
+
+HectaresUtil:
+  from: "Hectares"
+  to: "Acres"
+  multiplier: 2.47105
+
+AcresUtil:
+  from: "Acres"
+  to: "Hectares"
+  multiplier: 0.404686
+
+MillilitersUtil:
+  from: "Milliliters"
+  to: "Fluid Ounces"
+  multiplier: 0.033814
+
+FluidOuncesUtil:
+  from: "Fluid Ounces"
+  to: "Milliliters"
+  multiplier: 29.5735
+
+MegabytesUtil:
+  from: "Megabytes"
+  to: "Gigabytes"
+  multiplier: 0.001
+
+GigabytesUtil:
+  from: "Gigabytes"
+  to: "Megabytes"
+  multiplier: 1000
+
+MetersPerSecondUtil:
+  from: "Meters per Second"
+  to: "Kilometers per Hour"
+  multiplier: 3.6
+
+KilometersPerHourUtil:
+  from: "Kilometers per Hour"
+  to: "Meters per Second"
+  multiplier: 0.277778
+
+KnotsUtil:
+  from: "Knots"
+  to: "Miles per Hour"
+  multiplier: 1.15078
+
+MilesPerHourUtil:
+  from: "Miles per Hour"
+  to: "Knots"
+  multiplier: 0.868976

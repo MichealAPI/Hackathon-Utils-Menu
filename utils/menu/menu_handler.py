@@ -1,4 +1,4 @@
-from utility import Utility
+from utils.utility import Utility
 
 
 def show_and_input_menu(utilities: list) -> Utility | None:
