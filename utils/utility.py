@@ -49,16 +49,20 @@ class Utility:
     def has_enough_args(list_var: list, involved_args_amount: int) -> bool:
         return len(list_var) >= involved_args_amount
 
+    @staticmethod
+    def print_formatted(result: str) -> None:
+        print("┌\n|")
+        print(f"| {result}")
+        print("|\n└")
+
     def input_values(self) -> list:
 
         result: list = []
 
         my_type = self.get_required_type()
 
-        print(f"My type: {my_type}")
-
         for i in range(self.get_required_args_amount()):
-            val = my_type(input(self.get_arg_description(i)))
+            val = my_type(input(f"{self.get_arg_description(i)}\n"))
             result.append(val)
 
         return result
